@@ -1,0 +1,77 @@
+body{
+  background:-webkit-image-set(url(mme57.github.io/list.jpg) 1x, url(mme57.github.io/list.jpg) 2x) left top repeat rgb(86, 255, 154);
+    background-image: -webkit-image-set(url(mme57.github.io/list.jpg) 1x, url(mme57.github.io/list.jpg) 2x);
+    background-position-x: left;
+    background-position-y: top;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(86, 255, 154);
+}
+
+
+.Navigation{
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	 background:-webkit-image-set(url(mme57.github.io/gradient%202.jpg) 1x, url(mme57.github.io/gradient%202.jpg) 2x) left top repeat rgb(86, 255, 154);
+    background-image: -webkit-image-set(url(mme57.github.io/gradient%202.jpg) 1x, url(mme57.github.io/gradient%202.jpg) 2x);
+	border: 1px solid rgb(246, 228, 124);
+	box-shadow: 0 1px 0 rgb(0, 0, 0) inset, 0 1px 3px rgb(0, 0, 0);
+	border-radius: 3px;
+	margin-left:10px;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration: none; 
+	color: rgba(0, 0, 0, 0.50);
+	text-shadow: 0 1px #9b0f0f;
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+ul {
+   background: none;
+   text-align: left;
+   display: inline;
+   margin: 0;
+   padding: 15px 4px 17px 0;
+   list-style: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+ }
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:#e72222;
+  	border: 1px solid #d91515;
+} 
+
+.Navigation li:hover, a:hover {
+	 background: rgb(253, 225, 2);
+} 
