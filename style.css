@@ -1,36 +1,53 @@
 body{
-  background:-webkit-image-set(url(mme57.github.io/list.jpg) 1x, url(mme57.github.io/list.jpg) 2x) left top repeat rgb(86, 255, 154);
-    background-image: -webkit-image-set(url(mme57.github.io/list.jpg) 1x, url(mme57.github.io/list.jpg) 2x);
-    background-position-x: left;
-    background-position-y: top;
-    background-size: initial;
-    background-repeat-x: repeat;
-    background-repeat-y: repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgb(86, 255, 154);
+   
+    background-color: rgb(255, 129, 129);
 }
 
+html {
+  background-color: #a4b7ff;
+  font-size: 100%;
+}
+#sidebar {
+  position: absolute;
+  top: 0.5em; left: 0px;
+  width: 15em;
+  margin: 0px; padding: 0px;
+  margin-left: 0.5em;
+}
+#sidebar a, #sidebar a:visited {
+  color: #00f;
+}
+body {
+  margin: 0.5em;
+  margin-left: 16em; /* sync with #sidebar */
+  padding: 0.5em;
+  background-color: #ffd1d1;
+}
+
+
+/* Body content */
+h1 {
+  text-align: center;
+  font: bold 1.5em serif;
+  margin: 0em auto 1em auto;
+}
 
 .Navigation{
 	height: 50px;
 	padding: 0;
 	margin: 0;
-	position: absolute;
+	position: left;
+	list-style: none
 }
 
 .Navigation li 	{
 	height: auto;
 	width: 150px;
 	float: left;
-	text-align: center;
 	list-style: none;
 	font:12px "Bonveno", "Century Gothic";
 	padding: 0;
 	margin: 0;
-	 background:-webkit-image-set(url(mme57.github.io/gradient%202.jpg) 1x, url(mme57.github.io/gradient%202.jpg) 2x) left top repeat rgb(86, 255, 154);
-    background-image: -webkit-image-set(url(mme57.github.io/gradient%202.jpg) 1x, url(mme57.github.io/gradient%202.jpg) 2x);
 	border: 1px solid rgb(246, 228, 124);
 	box-shadow: 0 1px 0 rgb(0, 0, 0) inset, 0 1px 3px rgb(0, 0, 0);
 	border-radius: 3px;
@@ -41,12 +58,12 @@ body{
 	padding:13px;
 	text-decoration: none; 
 	color: rgba(0, 0, 0, 0.50);
-	text-shadow: 0 1px #9b0f0f;
+	text-shadow: 0 1px #000000;
 	display: block;
 }
 .Navigation li ul{
 	display: none;
-	height: auto;									
+	height: none;									
 	margin-left: -11px;
 	padding: 0;		
 }				
@@ -68,7 +85,7 @@ ul {
 }
 
 .navbar li ul li {
-	background-color:#e72222;
+	background-color:#ff1515;
   	border: 1px solid #d91515;
 } 
 
