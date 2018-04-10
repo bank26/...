@@ -1,65 +1,39 @@
 body{
    
-    background-color: rgb(255, 129, 129);
+    background-color: rgb(242, 255, 251);
 }
 
-html {
-  background-color: #a4b7ff;
-  font-size: 100%;
-}
-#sidebar {
-  position: absolute;
-  top: 0.5em; left: 0px;
-  width: 15em;
-  margin: 0px; padding: 0px;
-  margin-left: 0.5em;
-}
-#sidebar a, #sidebar a:visited {
-  color: #00f;
-}
-body {
-  margin: 0.5em;
-  margin-left: 16em; /* sync with #sidebar */
-  padding: 0.5em;
-  background-color: #ffd1d1;
-}
-
-
-/* Body content */
-h1 {
-  text-align: center;
-  font: bold 1.5em serif;
-  margin: 0em auto 1em auto;
-}
 
 .Navigation{
 	height: 50px;
 	padding: 0;
 	margin: 0;
 	position: left;
-	list-style: none
+	list-style: none;
 }
 
 .Navigation li 	{
-	height: auto;
-	width: 150px;
+	height: 30px;
+	width: 250px;
 	float: left;
 	list-style: none;
-	font:12px "Bonveno", "Century Gothic";
+	font:15px "Bonveno", "Century Gothic";
 	padding: 0;
 	margin: 0;
-	border: 1px solid rgb(246, 228, 124);
-	box-shadow: 0 1px 0 rgb(0, 0, 0) inset, 0 1px 3px rgb(0, 0, 0);
-	border-radius: 3px;
-	margin-left:10px;
+	border: 1px solid rgb(181, 187, 255);
+	box-shadow: 0 1px 0 rgb(0, 0, 0) inset, 0 2px 3px rgb(0, 0, 0);
+	border-radius: 0px;
+	margin-left:0px;
+	background-color: #5590f4
 }
 
-.Navigation a{							
-	padding:13px;
+.Navigation a{						
+	padding: 10px 90;
 	text-decoration: none; 
-	color: rgba(0, 0, 0, 0.50);
-	text-shadow: 0 1px #000000;
-	display: block;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 1px #ffffff;
+	display: block
+	;
 }
 .Navigation li ul{
 	display: none;
@@ -84,11 +58,8 @@ ul {
 	display: block;
 }
 
-.navbar li ul li {
-	background-color:#ff1515;
-  	border: 1px solid #d91515;
-} 
+
 
 .Navigation li:hover, a:hover {
-	 background: rgb(253, 225, 2);
+	 background: rgb(0, 230, 255);
 } 
