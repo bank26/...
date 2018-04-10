@@ -13,7 +13,7 @@ body{
 
 .Navigation li 	{
 	height: 30px;
-	width: 298px;
+	width: 290px;
 	float: left;
 	list-style: none;
 	font:15px "Bonveno", "Century Gothic";
@@ -27,7 +27,7 @@ body{
 }
 
 .Navigation a{						
-	padding: 10px 80px;
+	padding: 10px 75px;
 	text-decoration: none; 
 	color: rgb(43, 47, 75);
 	text-shadow: 0 1px #000000;
