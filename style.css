@@ -1,6 +1,6 @@
 body{
-   
-    background-color: rgb(242, 255, 251);
+   background-image: -webkit-image-set(url(bank26.github.io/TajMahal.jpg) 1x);
+   background-color: rgb(242, 255, 251);
 }
 
 
@@ -14,7 +14,7 @@ body{
 
 .Navigation li 	{
 	height: 30px;
-	width: 237px;
+	width: 235px;
 	float: left;
 	list-style: none;
 	font:15px "Bonveno", "Century Gothic";
