@@ -13,7 +13,7 @@ body{
 
 .Navigation li 	{
 	height: 30px;
-	width: 235px;
+	width: 298px;
 	float: left;
 	list-style: none;
 	font:15px "Bonveno", "Century Gothic";
@@ -23,14 +23,14 @@ body{
 	box-shadow: 0 1px 0 rgb(0, 0, 0) inset, 0 2px 3px rgb(0, 0, 0);
 	border-radius: 0px;
 	margin-left:0px;
-	background-color: #5590f4
+	background-color: #bbe2cb
 }
 
 .Navigation a{						
-	padding: 10px 90;
+	padding: 10px 80px;
 	text-decoration: none; 
-	color: rgb(255, 255, 255);
-	text-shadow: 0 1px #ffffff;
+	color: rgb(43, 47, 75);
+	text-shadow: 0 1px #000000;
 	display: block
 	;
 }
@@ -60,5 +60,9 @@ ul {
 
 
 .Navigation li:hover, a:hover {
-	 background: rgb(0, 230, 255);
+	 background: rgb(219, 251, 255);
 } 
+
+h1 {
+	font: 35px "Aharoni", "Century Gothic";
+}
